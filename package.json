@@ -1,0 +1,24 @@
+{
+  "name": "parcel-modern-javascript-app",
+  "version": "1.0.0",
+  "description": "Previously i made a modern aplication [Weather app (Under construction)](https://github.com/ortegaVictorBe/modern-javascript-app.git), using javascript modules, i have to fix some issues...",
+  "main": "modern-javascript-app/js/index.js modern-javascript-app/js/index_info.js",
+  "scripts": {
+    "dev": "parcel modern-javascript-app/index.html modern-javascript-app/info.html",
+    "pro": "parcel build modern-javascript-app/index.html modern-javascript-app/info.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ortegaVictorBe/parcel-modern-javascript-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ortegaVictorBe/parcel-modern-javascript-app/issues"
+  },
+  "homepage": "https://github.com/ortegaVictorBe/parcel-modern-javascript-app#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
