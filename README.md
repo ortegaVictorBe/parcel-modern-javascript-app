@@ -1,4 +1,4 @@
-# Modern Java Script - BeCode
+# Parcel Modern Javascript App - BeCode
 
 ## Brief :clipboard:
 
