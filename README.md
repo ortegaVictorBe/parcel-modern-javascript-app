@@ -58,7 +58,7 @@ Developed by [Victor Ortega](https://github.com/ortegaVictorBe) for [BeCode](htt
 
 ## Bugs :bug:
 
-- i still have the same "bugs" that source version [Weather app](https://crazyweather.netlify.app/)
+- it still has the same "bugs" that source (original) version [Weather app](https://crazyweather.netlify.app/)
 
 ---
 
