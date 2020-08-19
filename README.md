@@ -58,9 +58,7 @@ Developed by [Victor Ortega](https://github.com/ortegaVictorBe) for [BeCode](htt
 
 ## Bugs :bug:
 
-- live search makes slow load the index
-
-- it needs to add more functionality (Main & Fancy)
+- i still have the same sorce version [Weather app](https://crazyweather.netlify.app/)
 
 ---
 
