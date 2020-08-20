@@ -981,7 +981,14 @@ var start = function start() {
   var localCity = localStorage.getItem("name_localCity");
 
   if (localCity !== null) {
-    openWindowInfo();
+    if (localCity.length > 0) {
+      openWindowInfo();
+    } else {
+      //Hidding the Info
+      data.style.visibility = "hidden";
+      loading.style.visibility = "visible";
+      loadCities();
+    }
   } else {
     //Hidding the Info
     data.style.visibility = "hidden";
@@ -1139,7 +1146,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54927" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56441" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
