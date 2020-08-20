@@ -20,5 +20,8 @@
   "homepage": "https://github.com/ortegaVictorBe/parcel-modern-javascript-app#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2"
   }
 }
