@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/ortegaVictorBe/parcel-modern-javascript-app#readme",
   "devDependencies": {
+    "eslint": "^7.7.0",
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
